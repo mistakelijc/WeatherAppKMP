@@ -1,0 +1,6 @@
+
+com.leon.weather.WeatherFlowTest:..............
+
+Time: 23.69
+
+OK (14 tests)

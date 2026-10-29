@@ -1,0 +1,6 @@
+com.leon.weather.data.mapper.WeatherMapperTest: tests=11 failures=0 errors=0
+com.leon.weather.data.repository.OpenMeteoRepositoryTest: tests=16 failures=0 errors=0
+com.leon.weather.presentation.NativePresentationTest: tests=3 failures=0 errors=0
+com.leon.weather.presentation.SearchStoreTest: tests=10 failures=0 errors=0
+com.leon.weather.presentation.WeatherStoreTest: tests=8 failures=0 errors=0
+Total: 48 tests passed

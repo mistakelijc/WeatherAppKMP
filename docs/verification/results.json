@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-29",
+  "toolchain": {
+    "kotlin": "2.4.21",
+    "gradle": "9.1.0",
+    "agp": "9.0.1",
+    "xcode": "27.1"
+  },
+  "tests": {
+    "sharedJvm": {
+      "tests": 53,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "androidUnit": {
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "androidUi": {
+      "tests": 14,
+      "failures": 0,
+      "device": "API 37 emulator",
+      "evidence": "android-ui-tests.txt"
+    },
+    "sharedIosNative": {
+      "tests": 48,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "device": "iPhone Duo / iOS 27.1"
+    },
+    "iosUi": {
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "device": "iPhone Duo / iOS 27.1",
+      "network": "live Open-Meteo using Darwin",
+      "evidence": "ios-ui-test-results.json"
+    },
+    "iosSymbolRendering": {
+      "tests": 2,
+      "failures": 0,
+      "skipped": 0,
+      "renderCombinations": 132,
+      "evidence": "ios-symbol-rendering-test-results.json"
+    },
+    "iosSymbolLiveUi": {
+      "tests": 1,
+      "failures": 0,
+      "skipped": 0,
+      "device": "iPhone Duo expanded display / iOS 27.1",
+      "evidence": "ios-symbol-ui-test-results.json"
+    }
+  },
+  "builds": {
+    "android": "passed",
+    "iosSimulator": "passed",
+    "iosDeviceUnsigned": "passed",
+    "ios27DeviceTarget": "passed"
+  },
+  "limitations": [
+    "Physical iOS device validation has not been performed.",
+    "JVM/Native protocol tests use MockEngine; iOS UI integration tests require the live Open-Meteo service.",
+    "Current iOS search and navigation state is in memory; search history is persisted."
+  ]
+}

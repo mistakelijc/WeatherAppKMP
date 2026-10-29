@@ -1,0 +1,10 @@
+Test Case '-[WeatherAppUITests.WeatherFlowTests testEnglishSearchAndShortQueryValidation]' started.
+Test Case '-[WeatherAppUITests.WeatherFlowTests testEnglishSearchAndShortQueryValidation]' passed (19.094 seconds).
+Test Case '-[WeatherAppUITests.WeatherFlowTests testHistorySurvivesRelaunchAndCanBeRemovedAndCleared]' started.
+Test Case '-[WeatherAppUITests.WeatherFlowTests testHistorySurvivesRelaunchAndCanBeRemovedAndCleared]' passed (33.783 seconds).
+Test Case '-[WeatherAppUITests.WeatherFlowTests testPopularCityWeatherRefreshAndForecasts]' started.
+Test Case '-[WeatherAppUITests.WeatherFlowTests testPopularCityWeatherRefreshAndForecasts]' passed (29.343 seconds).
+	 Executed 3 tests, with 0 failures (0 unexpected) in 82.221 (82.228) seconds
+	 Executed 3 tests, with 0 failures (0 unexpected) in 82.221 (82.229) seconds
+	 Executed 3 tests, with 0 failures (0 unexpected) in 82.221 (82.230) seconds
+** TEST SUCCEEDED **
